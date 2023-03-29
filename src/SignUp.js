@@ -47,7 +47,7 @@ function SignUp() {
 
       const result = await response.json();
       console.log(result.message); // should log "Data saved to S3"
-      console.log("form submitted!");
+      alert("form submitted!");
 
       setFirstName("");
       setLastName("");
