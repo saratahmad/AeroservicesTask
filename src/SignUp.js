@@ -39,7 +39,7 @@ function SignUp() {
 
     console.log("hmm", data);
     try {
-      const response = await fetch("http://127.0.0.1:3000/signup", {
+      const response = await fetch("https://7zqzpxipi7.execute-api.us-east-1.amazonaws.com/Prod/signup", {
         method: "POST",
         mode: "cors",
         body: JSON.stringify(data),
