@@ -39,7 +39,7 @@ function SignUp() {
 
     console.log("hmm", data);
     try {
-      const response = await fetch("https://7zqzpxipi7.execute-api.us-east-1.amazonaws.com/Prod/signup", {
+      const response = await fetch("https://sq1ide44oc.execute-api.us-east-1.amazonaws.com/Prod/signup", {
         method: "POST",
         mode: "cors",
         body: JSON.stringify(data),
